@@ -13,4 +13,7 @@ import App from './App'
 //   // eslint-disable-next-line no-console
 // console.log(pkg)
 
+// eslint-disable-next-line no-console
+console.log(import.meta.env)
+
 createApp(App).mount('#app')
