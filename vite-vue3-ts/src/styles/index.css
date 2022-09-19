@@ -1,0 +1,15 @@
+@import url('@styles/other.css');
+
+
+:root {
+  --main-bg-color: brown;
+}
+
+.root {
+  color: var(--main-bg-color);
+}
+
+
+input::placeholder {
+  color: red;
+}
