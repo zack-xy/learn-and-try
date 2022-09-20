@@ -19,7 +19,7 @@ createViteServer({
 
     template = await vite.transformIndexHtml(req.url, template)
 
-    const { render } = await vite.ssrLoadModule('/src/server-entry.jsx')
+    const { render } = await vite.ssrLoadModule('src/sever-entry.jsx')
     const html = await render(req.url)
     const responseHtml = template.replace('<!--APP_HEML-->', html)
     res.set('content-type', 'text/html').send(responseHtml)
