@@ -9,7 +9,7 @@ const template = fs.readFileSync('dist/client/index.html', 'utf-8')
 app.use(express.static('dist/client'))
 
 app.get('*', async (req, res) => {
-  const render = require('./dist/server/sever-entry.mjs')
+  const render = require('./dist/server/sever-entry.mjs').render
   const context = {}
   const html = await render(req.url, context)
 
