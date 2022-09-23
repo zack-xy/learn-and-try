@@ -14,9 +14,7 @@ export default defineConfig({
     vueJsx({
       // options are passed on to @vue/babel-plugin-jsx
     }),
-    testPlugin('post'),
     testPlugin(),
-    testPlugin('pre'),
   ],
   // 优化依赖，指定哪些需要优化，哪些不需要优化
   optimizeDeps: {

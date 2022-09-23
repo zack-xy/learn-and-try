@@ -11,6 +11,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@types/node": "^18.7.18",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
     "sass": "^1.54.9",
     "vue": "^3.2.37"

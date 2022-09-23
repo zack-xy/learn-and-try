@@ -3,6 +3,7 @@
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Node",
+    "lib": ["ESNext", "es2015.promise", "DOM"],
     "allowSyntheticDefaultImports": true
   },
   "include": ["vite.config.ts", "plugins/test-plugin.ts"]
