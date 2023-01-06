@@ -148,7 +148,7 @@ module.exports = {
   // The test environment that will be used for testing
   // 不必自己实现浏览器的localStorage
   // jsdom会实现所有浏览器的api
-  testEnvironment: "jsdom",
+  testEnvironment: "jest-environment-jsdom-global",
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
