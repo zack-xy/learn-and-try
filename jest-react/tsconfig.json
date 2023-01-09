@@ -5,6 +5,7 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
+      "@/*": ["src/*"],
       "utils/*": ["src/utils/*"],
       "components/*": ["src/components/*"],
       "apis/*": ["src/apis/*"],
