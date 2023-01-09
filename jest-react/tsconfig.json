@@ -12,6 +12,6 @@
       "hooks/*": ["src/hooks/*"],
       "store/*": ["src/store/*"]
     },
-    "types": ["node", "jest"]
+    "types": ["node", "jest", "testing-library__jest-dom"]
   }
 }

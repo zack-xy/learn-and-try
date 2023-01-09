@@ -142,7 +142,7 @@ module.exports = {
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   // 在 安装测试框架之后 执行的代码
   // 每执行一个测试文件前都会跑一遍里面的代码
-  // setupFilesAfterEnv: ['./tests/jest-setup.ts'],
+  setupFilesAfterEnv: ['./tests/jest-setup.ts'],
 
   // The number of seconds after which a test is considered as slow and reported as such in the results.
   // slowTestThreshold: 5,
