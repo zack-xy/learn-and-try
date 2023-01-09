@@ -52,11 +52,12 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js', '.less', 'css'],
     // 设置别名
     alias: {
-      utils: path.join(__dirname, 'src/utils/'),
-      components: path.join(__dirname, 'src/components/'),
-      apis: path.join(__dirname, 'src/apis/'),
-      hooks: path.join(__dirname, 'src/hooks/'),
-      store: path.join(__dirname, 'src/store/'),
+      '@': path.join(__dirname, 'src/'),
+      // utils: path.join(__dirname, 'src/utils/'),
+      // components: path.join(__dirname, 'src/components/'),
+      // apis: path.join(__dirname, 'src/apis/'),
+      // hooks: path.join(__dirname, 'src/hooks/'),
+      // store: path.join(__dirname, 'src/store/'),
     }
   },
   devtool: 'inline-source-map',
